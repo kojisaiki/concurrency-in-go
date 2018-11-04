@@ -34,4 +34,8 @@ func main() {
 		}(salutation)
 	}
 	wg2.Wait()
+	// print following texts in random order:
+	// hello
+	// greeting
+	// good bye
 }
